@@ -18,7 +18,6 @@ def generate_plot(df: pd.DataFrame):
     df = df[target_cols].copy()
     df['diff'] = df.weighted_auROC - df.weighted_norm_mcc
     na = df[df.isna().any(axis=1)]
-    print(na)
     df = df.dropna()
     df = df.sort_values('diff', ascending=False)
     sns.set(rc={'figure.figsize':(7,6), 'patch.edgecolor': 'black'})

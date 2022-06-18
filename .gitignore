@@ -1,6 +1,13 @@
+# Output files
+*vcf.gz.tsv
+top_tools.txt
+new_config*txt
+config_subset*txt
+log_*
+
 # Output folders
 **/out_*
-log_*
+**/plots
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
