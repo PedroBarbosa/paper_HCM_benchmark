@@ -9,6 +9,7 @@ dependencies:
   - bcftools=1.15
   - imagemagick=7.1.0_39
   - postgresql
+  - psycopg2
   - pip:
       - Wand
       - matplotlib==3.5.1
@@ -24,3 +25,5 @@ dependencies:
       - gplearn==0.4.1
       - sklearn-pandas==2.2.0
       - dtreeviz==1.3.5
+      - jupyter
+      - papermill
