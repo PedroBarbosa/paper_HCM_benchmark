@@ -25,5 +25,6 @@ dependencies:
       - gplearn==0.4.1
       - sklearn-pandas==2.2.0
       - dtreeviz==1.3.5
+      - veta==0.6.0
       - jupyter
       - papermill
