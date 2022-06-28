@@ -9,6 +9,7 @@ dependencies:
   - bcftools=1.15
   - imagemagick=7.1.0_39
   - postgresql
+  - psycopg2
   - pip:
       - Wand
       - matplotlib==3.5.1
