@@ -8,4 +8,3 @@ COPY run_benchmarks.ipynb /work/run_benchmarks.ipynb
 VOLUME [ "/work/data" ]
 VOLUME [ "/work/scripts" ]
 VOLUME [ "/work/out" ]
-RUN chmod 777 /work/out
