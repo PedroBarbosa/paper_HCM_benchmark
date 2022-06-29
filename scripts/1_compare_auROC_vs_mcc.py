@@ -37,7 +37,7 @@ def generate_plot(df: pd.DataFrame):
     plt.xlabel('weighted auROC - weighted normalized MCC')
     plt.tight_layout()
     plt.axvline(x=0, linestyle="--", color='grey')
-    plt.savefig('plots/auROC_improvement.pdf')
+    plt.savefig('out/plots/auROC_improvement.pdf')
     
 def get_data(files: list, dataset_names: list = None):
     dfs = []

@@ -84,7 +84,7 @@ def generate_heatmap(_df: pd.DataFrame, dataset_names: list):
         
     plt.tight_layout()
 
-    fig.savefig("plots/ref_vs_adjusted.pdf", format='pdf', bbox_inches='tight')
+    fig.savefig("out/plots/ref_vs_adjusted.pdf", format='pdf', bbox_inches='tight')
     plt.show()
 
     

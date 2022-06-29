@@ -1,4 +1,3 @@
-name: hcm_benchmark
 channels:
   - bioconda
   - conda-forge
