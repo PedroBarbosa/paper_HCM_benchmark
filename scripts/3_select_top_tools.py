@@ -19,15 +19,13 @@ def average_by_metrics(df: pd.DataFrame, metrics: list):
     df = df[['tool', 'dataset'] + metrics].copy()
     
     # Average metric values
-    df = df.set_index(['tool', 'dataset']).mean(axis=1).reset_index()
+    df = df.set_index(['tool', 'dataset']).mean(axis=1).reset_index() 
     df = df.rename(columns={0: 'value'})
 
     # Generate ranks per dataset
     df = df.groupby('dataset').apply(lambda x: x.sort_values('value', ascending=False)).reset_index(drop=True)
+    
     df['rank'] = df.groupby('dataset').cumcount() + 1
-
-    #_df = df.pivot(index='tool',columns='dataset')[['weighted_auROC','weighted_accuracy']]
-    #df.to_csv('stats.tsv', sep="\t")
     return df 
     
 def get_data(files: list, dataset_names: list = None):

@@ -22,7 +22,7 @@ def average_by_metrics(df: pd.DataFrame, metric: str):
     
     ranked = df.groupby('tool')[metric].sum().sort_values(ascending=False)
     print("Top tools")
-    print('\n'.join(ranked.head(10).index.to_list()))
+    print('\n'.join(ranked.head(5).index.to_list()))
    
 def get_data(files: list, dataset_names: list = None):
     dfs = []
