@@ -1,5 +1,7 @@
 # paper_HCM_benchmark
-This repo contains the necessary code to reproduce the results obtained in the benchmark of prediction tools to predict Hypertrophic Cardiomyopathy associated variants.
+This repo contains the necessary code to reproduce the results obtained in the benchmark of prediction tools to predict Hypertrophic Cardiomyopathy associated variants. The workflow of the analysis is summarized below:
+
+![workflow_image](img/workflow.png)
 
 Please check the jupyter notebook `run_benchmarks.ipynb` created for the task, where the steps to generate results and corresponding figures are displayed.
 
