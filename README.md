@@ -1,5 +1,5 @@
 # paper_HCM_benchmark
-This repo contains the necessary code to reproduce the results obtained in the benchmark of prediction tools to predict Hypertrophic Cardiomyopathy associated variants. The workflow of the analysis is summarized below:
+This repo contains the necessary code to reproduce the results obtained in the [benchmark paper](https://www.frontiersin.org/articles/10.3389/fcvm.2022.975478/full) that evaluates existing tools to predict Hypertrophic Cardiomyopathy-associated missense variants. The workflow of the analysis is summarized below:
 
 <img src="img/workflow.png" height="250"/>
 
